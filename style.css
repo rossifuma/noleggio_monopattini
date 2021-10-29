@@ -1,0 +1,88 @@
+
+/* INIZIALIZZAZIONE DEL BACKGROUND */
+body{
+
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* BACKGROUND CENTRALE NEL QUALE E' COMPRESA LA PAGINA */
+.center_page{
+  font-family: 'Roboto', sans-serif;
+  background-color:rgba(0,0,0,0.5);
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 18%;
+  padding-bottom: 7%;
+  border-radius: 20px;
+}
+
+/* ALLINEAMENTO CENTRALE DEL LOGO E DEL TITOLO */
+header{
+  text-align: center;
+}
+
+/* RIDIMENSIONAMENTO DEL LOGO E DELLO SPAZIO SUPERIORE */
+#logo{
+  width: 22%;
+  padding-top: 8%;
+}
+
+/* RIDIMENSIONAMENTO DEL FONT, COLORE E SPAZIO SOTTOSTANTE */
+#title{
+  font-size: 35px;
+  color: #26ff00;
+  padding-bottom: 4px;
+}
+
+/* INIZIALIZZAZIONE DEL FORM CENTRALE  */
+.rent_mono{
+  margin: auto;
+  width: 80%;
+  padding: 1% 1%;
+  text-align: center;
+  background-color:#26ff00 ;
+}
+
+/* MARGINI ESTERNI PER OGNI MONOPATTINO */
+.monopattino{
+  padding-top: 2%;
+  margin-left: 7%;
+  padding-left: 2%;
+}
+
+/* RIDIMENSIONAMENTO FONT MARCA MONOPATTINO */
+.brand{
+  font-weight: 500;
+  font-size: 22px;
+  color:white;
+}
+
+/* RIDIMENSIONAMENTO E COLORE DELLA VIA E STATO CARICA DEI MONOPATTINI */
+span~div{
+  line-height: 25px;
+  color:white;
+}
+
+/* INIZIALIZZO LA BARRA DI CARICA, VERRA' COMPLETATO DAL LIVELLO CHE PRENDERA' UN COLORE E UN ALTEZZA */
+.carica{
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* LIVELLO DI CARICA DEI MONOPATTINI 1, 2, 3 */
+.livello1{
+  width: 27%;
+  background-color: orange;
+}
+
+.livello2{
+  width: 50%;
+  background-color: green;
+}
+
+.livello3{
+  width: 10%;
+  background-color: red;
+}
